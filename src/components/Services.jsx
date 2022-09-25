@@ -1,14 +1,16 @@
 import React from "react";
-import ServiceCard from "./ServiceCard";
 import { FaChild } from "react-icons/fa";
 import { IoBarbellSharp } from "react-icons/io5";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { GiBrain } from "react-icons/gi";
 
+import ServiceCard from "./ServiceCard";
+import Carousel from "./Carousel";
+
 const Services = () => {
   return (
     <div
-      className="w-full md:h-screen mx-auto flex flex-col justify-center bg-rehub-lightblue font-poppins"
+      className="w-full my-auto mx-auto flex flex-col justify-center bg-rehub-lightblue font-poppins"
       id="services"
     >
       <div className="flex justify-center font-bold text-rehub-darkcerulean text-3xl pl-5 mb-5">
@@ -53,6 +55,9 @@ const Services = () => {
           }
           cardColor={"bg-rehub-darkcerulean"}
         />
+      </div>
+      <div className="flex justify-center items-center m-auto p-2">
+        <Carousel />
       </div>
     </div>
   );

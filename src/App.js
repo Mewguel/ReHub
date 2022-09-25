@@ -7,7 +7,6 @@ import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 import ComingSoon from "./pages/ComingSoon"; // for pages that are under development and future release
 
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
-      <Footer />
     </Router>
   );
 }
