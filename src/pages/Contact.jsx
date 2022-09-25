@@ -7,7 +7,7 @@ import { FaFacebookSquare, FaPhoneSquareAlt } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="w-full md:h-screen mx-auto text-center flex flex-col justify-center text-rehub-cerulean bg-rehub-lightblue">
-      <div className=" font-bold text-5xl">Ready To Get Feel Better?</div>
+      <div className=" font-bold text-5xl">Ready To Feel Better?</div>
       <div className="font-bold text-2xl text-rehub-orange p-2">
         Send us a message!
       </div>
