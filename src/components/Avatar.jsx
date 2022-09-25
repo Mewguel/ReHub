@@ -4,7 +4,7 @@ import PTherapist from "../assets/pt.jpg"; // change this to your profile pictur
 const Avatar = () => {
   return (
     <div
-      className="w-full py-16 px-4 bg-rehub-lightblue text-rehub-deepblue"
+      className="flex w-full py-10 px-4 bg-rehub-lightblue text-rehub-deepblue"
       id="about"
     >
       <div className="container max-w-[1240px] max-auto grid md:grid-cols-3">
@@ -18,7 +18,7 @@ const Avatar = () => {
 
         <div className="first-para-container">
           <div className="font-bold text-2xl p-2 ">
-            <span className="text-rehub-cerulean">ABOUT US</span>
+            <span className="text-rehub-darkcerulean">ABOUT US</span>
           </div>
           <div className=" text-lg p-2 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi

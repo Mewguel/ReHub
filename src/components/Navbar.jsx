@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 mx-auto px-4 text-rehub-cerulean border-b border-gray-100 sticky top-0 bg-rehub-lightblue z-[999]">
+    <div className="flex justify-between items-center h-24 mx-auto px-4 text-rehub-darkcerulean border-b border-gray-100 sticky top-0 bg-rehub-lightblue z-[999]">
       <img
         className="h-[50px] w-[140px] rounded-lg"
         src={RehubLogoRect}
