@@ -12,7 +12,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="flex flex-col bg-rehub-deepblue bottom-0 p-4 text-rehub-lightblue ">
-      <div className="upper-footer-container flex mx-auto justify-evenly items-start p-4 w-full border-b-[1px] border-[#111561] text-sm">
+      <div className="upper-footer-container flex mx-auto justify-evenly items-start p-2 w-full border-b-[1px] border-[#111561] text-sm">
         <div className="flex flex-col justify-center items-center mx-auto">
           <div className="flex bg-rehub-cerulean rounded-full p-2 justify-center w-fit">
             <AiOutlinePhone size={30} />
@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="flex bg-rehub-cerulean rounded-full p-2 justify-center w-fit">
             <FaMapMarkerAlt size={30} />
           </div>
-          <div className="flex mx-auto p-2 md:max-w-[280px] max-w-[140px]">
+          <div className="flex mx-auto p-2 md:max-w-[240px] max-w-[140px]">
             <p className="text-center">
               J. Dela Cruz Street, Makati, 1227 Metro Manila
             </p>
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bottom-footer-container flex mx-auto justify-evenly items-start p-4 w-full border-b-[1px] border-[#111561]">
+      <div className="bottom-footer-container flex mx-auto justify-evenly items-start p-2 w-full border-b-[1px] border-[#111561]">
         <div className="about flex flex-col">
           <a href="/">
             <span className="text-md font-semibold pb-2">About</span>
@@ -108,7 +108,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="socials-container flex mx-auto justify-center items-start p-4 w-full">
+      <div className="socials-container flex mx-auto justify-center items-start p-2 w-full">
         {/* Add links to these platforms */}
         <div className="flex bg-transparent  rounded-full p-2 justify-center w-fit">
           <AiOutlineFacebook size={30} />
