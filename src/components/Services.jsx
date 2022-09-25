@@ -11,7 +11,7 @@ const Services = () => {
       className="w-full md:h-screen mx-auto flex flex-col justify-center bg-rehub-lightblue font-poppins"
       id="services"
     >
-      <div className="flex justify-center font-bold text-rehub-cerulean text-3xl pl-5 mb-5">
+      <div className="flex justify-center font-bold text-rehub-darkcerulean text-3xl pl-5 mb-5">
         Services
       </div>
       <div className="service-card-container w-full grid md:grid-cols-2 gap-4 justify-center items-center p-5">
@@ -22,7 +22,7 @@ const Services = () => {
             desc={
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, est?"
             }
-            cardColor={"bg-rehub-cerulean"}
+            cardColor={"bg-rehub-darkcerulean"}
           />
         </div>
 
@@ -51,7 +51,7 @@ const Services = () => {
           desc={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, est?"
           }
-          cardColor={"bg-rehub-cerulean"}
+          cardColor={"bg-rehub-darkcerulean"}
         />
       </div>
     </div>

@@ -7,7 +7,8 @@ module.exports = {
         vader: "#d92626",
         deepvader: "#b30000",
         rehub: {
-          cerulean: "#00A2A3",
+          cerulean: "#2beeee",
+          darkcerulean: "#086e6e",
           deepblue: "#060834",
           lightblue: "#E7F0FE",
           orange: "#F48F03",
@@ -16,8 +17,9 @@ module.exports = {
       textColor: {
         vader: "#d92626",
         rehub: {
+          cerulean: "#2beeee",
+          darkcerulean: "#086e6e",
           deepblue: "#060834",
-          cerulean: "#00A2A3",
           orange: "#F48F03",
         },
       },
