@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import { AiOutlineMail, AiOutlineInstagram } from "react-icons/ai";
 import { FaFacebookSquare, FaPhoneSquareAlt } from "react-icons/fa";
@@ -15,8 +14,8 @@ const Contact = () => {
       </div>
 
       <div className="flex justify-center">
-        <a href="https://www.facebook.com/migs.ivan18">
-          <div className="gmail-container flex flex-col justify-center pl-14 pr-10 py-12">
+        <a href="https://www.facebook.com/rehub.philippines/">
+          <div className="gmail-container flex flex-col justify-center pl-14 pr-10 py-12 w-[200px]">
             <div className="font-bold flex flex-col justify-center items-center">
               <FaFacebookSquare size={40} />
               <p>FaceBook</p>
@@ -24,35 +23,37 @@ const Contact = () => {
           </div>
         </a>
 
-        <div className="gmail-container flex flex-col justify-center p-12">
-          <div className="font-bold flex flex-col justify-center items-center">
-            <AiOutlineInstagram size={40} />
-            <p>Instagram</p>
+        <a href="https://www.instagram.com/rehub.ph/">
+          <div className="gmail-container flex flex-col justify-center p-12 w-[200px]">
+            <div className="font-bold flex flex-col justify-center items-center">
+              <AiOutlineInstagram size={40} />
+              <p>Instagram</p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
 
       <div className="flex justify-center">
-        <div className="gmail-container flex flex-col justify-center p-5">
+        <div className="gmail-container flex flex-col justify-center p-5 w-[200px]">
           <div className="font-bold flex flex-col justify-center items-center">
             <AiOutlineMail size={40} />
             <p>Gmail</p>
-            <p>rehub@rehub.ph</p>
+            <p className="font-semibold text-sm">rehub.philippines@gmail.com</p>
           </div>
         </div>
 
-        <div className="gmail-container flex flex-col justify-center p-5">
+        <div className="gmail-container flex flex-col justify-center p-5 w-[200px]">
           <div className="font-bold flex flex-col justify-center items-center">
             <FaPhoneSquareAlt size={40} />
             <p>Phone</p>
-            <p>+61 ## ### ##</p>
+            <p className="font-semibold text-sm">(02) 8-951-3333</p>
           </div>
         </div>
       </div>
 
       <div className="p-5 ">
-        <Link
-          href="/"
+        <a
+          href="/products"
           className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-rehub-darkcerulean border-2 border-rehub-darkcerulean rounded-full hover:text-white group hover:bg-gray-50"
         >
           <span className="absolute left-0 block w-full h-0 transition-all bg-rehub-darkcerulean opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
@@ -73,7 +74,7 @@ const Contact = () => {
             </svg>
           </li>
           <span className="relative">See Products</span>
-        </Link>
+        </a>
       </div>
     </div>
   );
