@@ -6,7 +6,6 @@ import {
   AiOutlineMail,
   AiOutlineFacebook,
   AiOutlineInstagram,
-  AiOutlineLinkedin,
 } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
@@ -19,7 +18,7 @@ const Footer = () => {
             <AiOutlinePhone size={30} />
           </div>
           <div className="mx-auto p-2 md:max-w-[280px] max-w-[140px]">
-            <p className="text-center">(+63) 988 111 1111 </p>
+            <p className="text-center">(02) 8-951-3333 </p>
           </div>
         </div>
 
@@ -28,7 +27,7 @@ const Footer = () => {
             <AiOutlineMail size={30} />
           </div>
           <div className="mx-auto p-2 md:max-w-[280px] max-w-[140px]">
-            <p className="text-center">rehub@rehub.ph </p>
+            <p className="text-center">rehub.philippines@gmail.com </p>
           </div>
         </div>
 
@@ -38,7 +37,8 @@ const Footer = () => {
           </div>
           <div className="flex mx-auto p-2 md:max-w-[240px] max-w-[140px]">
             <p className="text-center">
-              J. Dela Cruz Street, Makati, 1227 Metro Manila
+              {`2F, Celebrity Sports Plaza, Delta Drive, Matandang Balara 1119
+              Quezon City, Philippines`}
             </p>
           </div>
         </div>
@@ -111,15 +111,16 @@ const Footer = () => {
 
       <div className="socials-container flex mx-auto justify-center items-start p-2 w-full">
         {/* Add links to these platforms */}
-        <div className="flex bg-transparent  rounded-full p-2 justify-center w-fit">
-          <AiOutlineFacebook size={30} />
-        </div>
-        <div className="flex bg-transparent  rounded-full p-2 justify-center w-fit">
-          <AiOutlineInstagram size={30} />
-        </div>
-        <div className="flex bg-transparent rounded-full p-2 justify-center w-fit">
-          <AiOutlineLinkedin size={30} />
-        </div>
+        <a href="https://www.facebook.com/rehub.philippines/">
+          <div className="flex bg-transparent  rounded-full p-2 justify-center w-fit">
+            <AiOutlineFacebook size={30} />
+          </div>
+        </a>
+        <a href="https://www.instagram.com/rehub.ph/">
+          <div className="flex bg-transparent  rounded-full p-2 justify-center w-fit">
+            <AiOutlineInstagram size={30} />
+          </div>
+        </a>
       </div>
     </div>
   );
