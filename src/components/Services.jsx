@@ -4,7 +4,7 @@ import { IoBarbellSharp } from "react-icons/io5";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { GiBrain } from "react-icons/gi";
 
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "./Card";
 import Carousel from "./Carousel";
 
 const Services = () => {

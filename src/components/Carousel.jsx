@@ -9,8 +9,8 @@ import { AiOutlineDoubleRight, AiOutlineDoubleLeft } from "react-icons/ai";
 
 const featuredServices = [Service1, Service2, Service3];
 
-let ci = 0;
-let slideInterval;
+var ci = 0;
+var slideInterval;
 const Carousel = () => {
   const [currentIndex, setcurrentIndex] = useState(0);
   const slideRef = useRef();

@@ -28,7 +28,7 @@ const Navbar = () => {
         <Link to="/products">
           <li className="font-semibold p-4 cursor-pointer">Products</li>
         </Link>
-        <a href="/#about">
+        <a href="/about">
           <li className="font-semibold p-4 cursor-pointer">About</li>
         </a>
         <Link to="/contact">
@@ -71,7 +71,7 @@ const Navbar = () => {
               Products
             </li>
           </Link>
-          <Link to="/">
+          <Link to="/about">
             <li className="font-semibold p-4 border-b border-gray-500 cursor-pointer">
               About
             </li>

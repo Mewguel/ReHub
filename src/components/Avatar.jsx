@@ -21,18 +21,15 @@ const Avatar = () => {
             <span className="text-rehub-darkcerulean">ABOUT US</span>
           </div>
           <div className=" text-lg p-2 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            quidem temporibus nisi tempora quae quo, ratione adipisci, quas
-            impedit molestiae minima omnis deserunt odio cumque fugit debitis
-            neque iusto laudantium!
+          {`
+          Re- Hub (Relief, Rehab, Recover) is a Physical Therapy and Recovery Clinic that aims to provide services to people seeking pain relief, sports and orthopedic rehabilitation, and rehabilitation for special conditions (women's health, vestibular, lymphedema), along with people who are not injured but seek recovery services.
+          `}
           </div>
         </div>
 
         <div className="details-container text-lg pt-14 pl-2">
           <div>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
-            praesentium provident laborum necessitatibus nihil obcaecati tenetur
-            eius excepturi labore temporibus?
+            {`This facility also offers strength and conditioning performance enhancement programs to athletes and clients who want to improve their sports performance, movement, and stamina.`}
           </div>
         </div>
       </div>

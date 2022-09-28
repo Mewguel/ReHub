@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import {
   AiOutlinePhone,
@@ -48,21 +49,21 @@ const Footer = () => {
           <a href="/">
             <span className="text-md font-semibold pb-2">About</span>
           </a>
-          <a href="/">
+          <Link to="/about">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
-              Our Story
+              About Re-hub
             </span>
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/about">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
               Vision
             </span>
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/about">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
               Mission
             </span>
-          </a>
+          </Link>
         </div>
 
         <div className="services flex flex-col">
