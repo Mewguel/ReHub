@@ -3,10 +3,7 @@ import PTherapist from "../assets/pt.jpg"; // change this to your profile pictur
 
 const Avatar = () => {
   return (
-    <div
-      className="flex w-full py-10 px-4 bg-rehub-lightblue text-rehub-deepblue"
-      id="about"
-    >
+    <div className="flex w-full py-10 px-4 text-rehub-deepblue" id="about">
       <div className="container max-w-[1240px] max-auto grid md:grid-cols-3">
         <div className="flex md:justify-end justify-center md:pb-5 md:pr-10">
           <img

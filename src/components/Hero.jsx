@@ -7,11 +7,16 @@ import Lounge from "../assets/rehub_lounge.jpg";
 const Hero = () => {
   return (
     <div className="md:flex hero-text-container text-rehub-deepblue" id="hero">
-      <div className="max-w-[800px] mt-[-90px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <h6 className="text-transparent bg-clip-text bg-gradient-to-r from-rehub-darkcerulean to-rehub-cerulean md:text-7xl sm:text-5xl  text-4xl font-extrabold p-2">
+      <div
+        className={
+          "max-w-[800px] mt-[-90px] md:w-full md:h-screen min-w-[420px] min-h-[640px] mx-auto text-center flex flex-col justify-center "
+        }
+      >
+        <div className=" w-full md:h-screen  min-h-[640px] mx-auto text-center flex flex-col justify-center bg-black opacity-50 absolute top-0 left-0"></div>
+        <h6 className="text-transparent bg-clip-text bg-gradient-to-r from-rehub-darkcerulean to-rehub-cerulean md:text-7xl sm:text-5xl  text-4xl font-extrabold p-2 z-10">
           RE-HUB
         </h6>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center z-10">
           <Typed
             className="md:text-xl sm:text-lg text-base font-bold pl-2 text-rehub-orange"
             strings={["Relief - Rehab - Recover!"]}
@@ -20,7 +25,7 @@ const Hero = () => {
             loop
           />
         </div>
-        <div className="p-5 ">
+        <div className="p-5 z-10">
           <Link
             href="/"
             className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-rehub-darkcerulean border-2 border-rehub-darkcerulean rounded-full hover:text-white group hover:bg-gray-50"
@@ -45,10 +50,8 @@ const Hero = () => {
             <span className="relative">Set An Appointment</span>
           </Link>
         </div>
-      </div>
-      <div className="max-w-[800px] mt-[-90px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <img
-          className="w-[480px] h-[320] rounded-tr-[50px] rounded-tl-[50px] rounded-b-md border-[3px] border-rehub-cerulean"
+          className="flex md:w-full md:h-screen min-w-[420px] min-h-[640px] shadow absolute top-0 left-0 -z-10 overflow-hidden"
           src={Lounge}
           alt="lounge"
         />
