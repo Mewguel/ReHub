@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
+import OurTeam from "./pages/OurTeam";
 import ComingSoon from "./pages/ComingSoon"; // for pages that are under development and future release
 
 import Navbar from "./components/Navbar";
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/comingsoon" element={<ComingSoon />} />
+          <Route path="/team" element={<OurTeam />} />
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
         </Routes>

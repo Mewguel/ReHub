@@ -1,28 +1,27 @@
 import React from "react";
 import Typed from "react-typed";
 
+import RehubLogo from "../assets/rehub_rect.png";
+
 const ComingSoon = () => {
   return (
-    <div className="text-white">
+    <div className="text-rehub-orange">
       <div className="max-w-[800px] mt-[-90px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+        <div className="flex justify-center p-4">
+          <img className="md:w-[480px]" src={RehubLogo} alt="Rehub Logo" />
+        </div>
         <div className="flex justify-center items-center">
-          <p className="md:text-xl sm:text-lg text-base font-semibold">
-            I'm Still working
+          <p className="md:text-2xl sm:text-lg text-base font-bold">
+            RE-HUB Products are
           </p>
           <Typed
-            className="md:text-xl sm:text-lg text-base font-semibold pl-2"
-            strings={[" on this one!"]}
+            className="md:text-2xl sm:text-lg text-base font-bold pl-2"
+            strings={[" coming soon!"]}
             typeSpeed={120}
             backSpeed={200}
             loop
           />
-          <p className="md:text-xl sm:text-lg text-base font-semibold">
-            {"= )"}
-          </p>
         </div>
-        <button className="bg-vader w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-deepvader">
-          See Profile
-        </button>
       </div>
     </div>
   );

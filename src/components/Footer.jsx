@@ -46,20 +46,20 @@ const Footer = () => {
 
       <div className="bottom-footer-container flex mx-auto justify-evenly items-start p-2 w-full border-b-[1px] border-[#111561]">
         <div className="about flex flex-col">
-          <a href="/">
+          <Link to="/about">
             <span className="text-md font-semibold pb-2">About</span>
-          </a>
+          </Link>
           <Link to="/about">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
               About Re-hub
             </span>
           </Link>
-          <Link to="/about">
+          <Link to="/about/#vision">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
               Vision
             </span>
           </Link>
-          <Link href="/about">
+          <Link to="/about/#mission">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
               Mission
             </span>
@@ -72,17 +72,22 @@ const Footer = () => {
           </a>
           <a href="/">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
-              Service 1
+              Pain Relief
             </span>
           </a>
           <a href="/">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
-              Service 2
+              Sports and Orthopedic Rehabilitation
             </span>
           </a>
           <a href="/">
             <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
-              Service 3
+              Sports Recovery Program
+            </span>
+          </a>
+          <a href="/">
+            <span className="text-sm hover:text-rehub-darkcerulean cursor-pointer">
+              Strength and Conditioning/ Performance Enhancement
             </span>
           </a>
         </div>

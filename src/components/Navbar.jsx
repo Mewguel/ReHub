@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 mx-auto px-4 text-rehub-darkcerulean border-b border-gray-100 sticky top-0 bg-rehub-lightblue z-[999]">
+    <div className="flex justify-between items-center h-24 mx-auto px-4 text-rehub-deepblue border-b border-gray-100 sticky top-0 bg-rehub-lightblue z-[999]">
       <img
         className="h-[50px] w-[140px] rounded-lg"
         src={RehubLogoRect}
@@ -22,15 +22,18 @@ const Navbar = () => {
         <Link to="/">
           <li className="font-semibold p-4 cursor-pointer">Home</li>
         </Link>
-        <a href="/#services">
+        <Link to="/#services">
           <li className="font-semibold p-4 cursor-pointer">Services</li>
-        </a>
+        </Link>
         <Link to="/products">
           <li className="font-semibold p-4 cursor-pointer">Products</li>
         </Link>
-        <a href="/about">
+        <Link to="/about">
           <li className="font-semibold p-4 cursor-pointer">About</li>
-        </a>
+        </Link>
+        <Link to="/team">
+          <li className="font-semibold p-4 cursor-pointer">Our Team</li>
+        </Link>
         <Link to="/contact">
           <li className="font-semibold p-4 cursor-pointer">Contact</li>
         </Link>
@@ -74,6 +77,12 @@ const Navbar = () => {
           <Link to="/about">
             <li className="font-semibold p-4 border-b border-gray-500 cursor-pointer">
               About
+            </li>
+          </Link>
+
+          <Link to="/team">
+            <li className="font-semibold p-4 border-b border-gray-500 cursor-pointer">
+              Our Team
             </li>
           </Link>
 
